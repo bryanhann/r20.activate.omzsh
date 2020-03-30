@@ -1,4 +1,4 @@
-_export ZSH $ZDOTBLD/omzsh
+_export ZSH $(dirname $(grealpath $0))/__omzsh__
 
 [ -d $ZSH ] || {
     echo INSTALLING OMZSH
